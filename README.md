@@ -4,6 +4,26 @@
 ---
 类
 ---
+### Util-工具类
+### 方法
+        /**
+         * 枚举类型
+         */
+        enum DayType{
+            WEEKDAY,WEEKEND
+        }
+
+        /**
+         * 将日期转为周几，并且返回枚举类型
+         * 枚举类型有周内和周末
+         */
+         public static DayType dateToWeek(String date);
+
+         /** 
+         * 字符串转时间格式，返回时间的小时
+         */
+        public static int stringToTime(String time);
+	
 ### Encoder-编码器
 ### 属性
     //命令
